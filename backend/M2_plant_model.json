@@ -1,0 +1,40 @@
+{
+  "model": "D. Distillation + INT8",
+  "setting": "student filters [8, 16, 32, 64], T=4, alpha=0.3",
+  "base_model": "MobileNetV2",
+  "folders": [
+    "1",
+    "aloe_vera_bg",
+    "moringa_bg",
+    "nim_2_bg",
+    "nim_bg",
+    "tulsi_bg"
+  ],
+  "species": [
+    "1",
+    "aloe_vera_bg",
+    "moringa_bg",
+    "neem",
+    "tulsi_bg"
+  ],
+  "names": [
+    "hibiscus",
+    "aloe vera",
+    "moringa",
+    "neem",
+    "tulsi"
+  ],
+  "folder_to_species": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    4
+  ],
+  "image_size": 160,
+  "theta": 0.2,
+  "test_accuracy": 0.963855421686747,
+  "test_macro_f1": 0.9672900919563208,
+  "file_mb": 0.033608
+}
